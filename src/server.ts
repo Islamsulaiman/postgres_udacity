@@ -2,7 +2,9 @@ import express, { Request, Response } from 'express'
 import bodyParser from 'body-parser'
 
 const app: express.Application = express()
-const address: string = "0.0.0.0:3000"
+
+//dont add type for this variable because it's already initialized with string value and typescript can 
+const address = "0.0.0.0:3000"
 
 app.use(bodyParser.json())
 
