@@ -14,4 +14,5 @@ const client = new Pool({
 });
 
 console.log(DATABASE_HOST);
+console.log(POSTGRES_PASSWORD);
 export default client;

@@ -1,0 +1,1 @@
+CREATE TABLE mythical_wepons (id SERIAL PRIMARY KEY, name VARCHAR(100), type VARCHAR(100), weight integer);
